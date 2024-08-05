@@ -9,6 +9,6 @@ app.get("/", (request, response) => {
 // Additionally added get today's date
 app.get("/date", (request, response) => {
     let date = new Date();
-    response.send(`Today date is : ${date}`);
+    response.send(`Today date is : ${date}`); 
 })
 app.listen(3000);
